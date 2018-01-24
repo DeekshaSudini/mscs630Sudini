@@ -3,7 +3,7 @@ import java.io.*;
 
 class Driver
 {
-  public static void main(String[] args) throws            FileNotFoundException
+  public static void main(String[] args) throws FileNotFoundException
 {
   System.out.println("Please Enter the String: ");
   Scanner sc = new Scanner(new File("input.txt"));
