@@ -1,0 +1,6 @@
+7 pts
+Functionality tests: pass
+Style check:
+- there is incorrect indentation
+- headers missing
+- no properly documented
