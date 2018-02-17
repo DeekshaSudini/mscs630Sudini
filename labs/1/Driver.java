@@ -10,7 +10,8 @@
    */
 import java.util.*;
 import java.io.*;
-//The Driver class takes the plain text as input string and maps it to int. 
+/*The Driver class takes the plain text as input string 
+ *and maps it to int. */
 class Driver{
   public static void main(String[] args) throws FileNotFoundException
   {
@@ -25,6 +26,9 @@ class Driver{
       System.out.println();
     }
   }
+  /*The function str2int uses the plaintext which is inputed 
+   *and converts it into integer by ascii representation 
+   *and the spaces are filled with 26 */
   public static int[] str2int(String plainText){
     int[] temp = new int[plainText.length()] ;
     for (int i=0;i<plainText.length();i++){
