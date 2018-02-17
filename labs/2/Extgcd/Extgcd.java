@@ -8,14 +8,14 @@
    * 
    * This file contains the implementation of Extended Euclid Algorithm  
    */
-
-
 import java.util.*;
 import java.io.*;
-/*This class implements the Extended Euclidean Algorithm and computes greatest common divisor 
- *of integers a and b and also computes the coeffients x and y 
+/*This class implements the Extended Euclidean Algorithm 
  */
 public class Extgcd{
+ /*The function euclidAlgExt computes greatest common divisor 
+ *of integers a and b and also computes the coeffients x and y.
+ */
   public static long[] euclidAlgExt(long a, long b){
     if (b>a){
       long temp = b;
