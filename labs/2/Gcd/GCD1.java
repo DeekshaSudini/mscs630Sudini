@@ -1,5 +1,5 @@
 /**
-   * file: Gcd.java
+   * file: GCD1.java
    * author: Deeksha Sudini
    * course: mscs630
    * assignment: lab 2
