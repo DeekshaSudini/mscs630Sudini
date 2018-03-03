@@ -1,9 +1,7 @@
 import java.util.*;
 import java.util.Scanner;
 import java.io.*;
-/*This class outputs hexadecimal value of the given input string
-* and substitution charater by dividing the string into multiple of 
-* 16 characters and padding the substititution character if required*/
+/*This class outputs hexadecimal value of the given input string by dividing the string into 16 characters*/
 public class Hexconv {
   public static void main(String[] args) throws FileNotFoundException {
     Scanner sc = new Scanner(new File("input.txt"));
@@ -58,3 +56,4 @@ public class Hexconv {
     return x;
   }
 }
+
