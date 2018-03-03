@@ -13,8 +13,7 @@ import java.io.*;
 /*The class GCD1 implements the functionality of Euclidean Algorithm 
 */
 class GCD1{
-  public static void main(String[] args) throws FileNotFoundException
-  {
+  public static void main(String[] args) throws FileNotFoundException{
     System.out.println("Please enter two number to perform GCD: ");
     Scanner sc = new Scanner(new File("input.txt"));
     while (sc.hasNext()){
