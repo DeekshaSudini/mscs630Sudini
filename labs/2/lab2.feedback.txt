@@ -1,0 +1,19 @@
+19 pts
+
+Deeksha,
+
+About your programs...
+
+Functionality
+
+- All programs function correctly; however, you should be reading your imput
+  form standar input. (System.in).
+
+Style Check
+
+- All programs follow the style guidelines. Good job!
+
+
+Peace,
+
+- Dr. Rivas
