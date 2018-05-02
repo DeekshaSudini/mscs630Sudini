@@ -15,7 +15,7 @@ import java.io.*;
 class GCD1{
   public static void main(String[] args) throws FileNotFoundException{
     System.out.println("Please enter two number to perform GCD: ");
-    Scanner sc = new Scanner(new File("input.txt"));
+    Scanner sc = new Scanner(System.in);
     while (sc.hasNext()){
       long m = sc.nextLong();
       long n = sc.nextLong();
