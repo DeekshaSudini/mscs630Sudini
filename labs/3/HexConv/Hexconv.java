@@ -1,3 +1,13 @@
+/**
+   * file: HexConv.java
+   * author: Deeksha Sudini
+   * course: mscs630
+   * assignment: lab 3
+   * due date: Feb 27, 2018
+   * version: 9.0.4
+   * 
+   * This file contains the implementation of Hill cryptosystem. 
+   */
 import java.util.*;
 import java.util.Scanner;
 import java.io.*;
