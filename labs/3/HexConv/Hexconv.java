@@ -4,7 +4,7 @@ import java.io.*;
 /*This class outputs hexadecimal value of the given input string by dividing the string into 16 characters*/
 public class Hexconv {
   public static void main(String[] args) throws FileNotFoundException {
-    Scanner sc = new Scanner(new File("input.txt"));
+    Scanner sc = new Scanner(System.in);
     // It takes the substitution character
     char substution_char = sc.nextLine().charAt(0);
     // It takes the Actual String
