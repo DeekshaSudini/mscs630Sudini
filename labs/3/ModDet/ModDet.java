@@ -4,8 +4,8 @@
  * author: Deeksha Sudini
  * course: MSCS630
  * assignment: Lab 3
- * due date: Wednesday, February 28, 2018
- * version: 1.0
+ * due date: Wednesday, February 27, 2018
+ * version: 9.0.4
  *
  * This file contains the declaration of the
  * ModDet class.
@@ -56,7 +56,7 @@ public class ModDet{
   /*This main class accepts valid mod value, size of the matrix and 
   elements of the matrix as an input and activates determinant function*/
   public static void main(String args[]) throws FileNotFoundException{
-    Scanner sc = new Scanner(new File("input.txt"));
+    Scanner sc = new Scanner(System.in);
     while (sc.hasNext()){
       System.out.println("Enter the mod value");
       int x = sc.nextInt();
