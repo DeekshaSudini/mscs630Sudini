@@ -4,7 +4,7 @@
  * course: mscs630
  * assignment: Lab 4
  * due date: Wednesday, April 4, 2018
- * version: 1.0
+ * version: 9.0.4
  *
  * This file contains the declaration of the
  * AESCipher class.
