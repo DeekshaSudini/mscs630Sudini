@@ -45,7 +45,7 @@ public class Extgcd{
   public static void main (String[] args) throws FileNotFoundException{
     System.out.println();
     System.out.println("Please Enter two numbers to perform GCD   and show x and y where, gcd(a,b) = ax + by : ");
-    Scanner sc = new Scanner(new File("input.txt"));
+    Scanner sc = new Scanner(System.in);
     while (sc.hasNext()){
       long m = sc.nextLong();
       long n = sc.nextLong();
