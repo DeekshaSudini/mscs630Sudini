@@ -1,4 +1,4 @@
-19 pts
+20 pts
 
 Deeksha,
 
@@ -6,8 +6,7 @@ About your programs...
 
 Functionality
 
-- All programs function correctly; however, you should be reading your imput
-  form standar input. (System.in).
+- Works!
 
 Style Check
 
